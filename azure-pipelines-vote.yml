@@ -12,9 +12,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'ccd8d0b3-a0d1-412d-ba70-bd8cf473e94d'
+  dockerRegistryServiceConnection: ''
   imageRepository: 'vottingapp'
-  containerRegistry: 'vottingcr.azurecr.io'
+  containerRegistry: ''
   dockerfilePath: '$(Build.SourcesDirectory)/vote/Dockerfile'
   tag: '$(Build.BuildId)'
 
